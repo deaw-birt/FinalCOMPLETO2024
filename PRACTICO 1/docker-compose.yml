@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+
+# BBDD
+# mysql:5.7
+# volumes: 
+#  - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+# MYSQL_USER y MYSQL_PASSWORD serán exam
+
+# Admin BBDD
+# phpmyadmin/phpmyadmin
+# environment:
+#     PMA_HOST: db
+# Puerto 8080
+
+# WEB
+# php:7.4-apache
+# Puerto 80
+# Deberéis añadir las siguientes líneas:
+# command: >
+#   bash -c "docker-php-ext-install mysqli && docker-php-ext-enable mysqli && apache2-foreground"
